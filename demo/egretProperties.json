@@ -1,0 +1,36 @@
+{
+	"engineVersion": "5.2.33",
+	"compilerVersion": "5.2.33",
+	"template": {},
+	"target": {
+		"current": "web"
+	},
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "assetsmanager"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "tween"
+		},
+		{
+			"name": "dragonBones"
+		},
+		{
+			"name": "promise"
+		},
+		{
+			"name": "rawinflate",
+			"path": "./libs/rawinflate"
+		},
+		{
+			"name": "fairygui",
+			"path": "./libs/fairygui"
+		}
+	]
+}

@@ -1,0 +1,236 @@
+{
+	"groups": [
+		{
+			"keys": "MainMenu,MainMenu_atlas0",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/UI/skin.fui",
+			"type": "bin",
+			"name": "skin"
+		},
+		{
+			"url": "assets/UI/Bag.fui",
+			"type": "bin",
+			"name": "Bag"
+		},
+		{
+			"url": "assets/UI/Bag_atlas0.png",
+			"type": "image",
+			"name": "Bag_atlas0"
+		},
+		{
+			"url": "assets/UI/Basics_atlas0.png",
+			"type": "image",
+			"name": "Basics_atlas0"
+		},
+		{
+			"url": "assets/UI/Basics_gojg7u.wav",
+			"type": "sound",
+			"name": "Basics_gojg7u"
+		},
+		{
+			"url": "assets/UI/Basics_o4lt7w.wav",
+			"type": "sound",
+			"name": "Basics_o4lt7w"
+		},
+		{
+			"url": "assets/UI/Basics.fui",
+			"type": "bin",
+			"name": "Basics"
+		},
+		{
+			"url": "assets/UI/Chat.fui",
+			"type": "bin",
+			"name": "Chat"
+		},
+		{
+			"url": "assets/UI/Chat_atlas0.png",
+			"type": "image",
+			"name": "Chat_atlas0"
+		},
+		{
+			"url": "assets/UI/Cooldown.fui",
+			"type": "bin",
+			"name": "Cooldown"
+		},
+		{
+			"url": "assets/UI/Cooldown_atlas0.png",
+			"type": "image",
+			"name": "Cooldown_atlas0"
+		},
+		{
+			"url": "assets/UI/Guide.fui",
+			"type": "bin",
+			"name": "Guide"
+		},
+		{
+			"url": "assets/UI/Guide_atlas0.png",
+			"type": "image",
+			"name": "Guide_atlas0"
+		},
+		{
+			"url": "assets/UI/HitTest.fui",
+			"type": "bin",
+			"name": "HitTest"
+		},
+		{
+			"url": "assets/UI/HitTest_atlas0.png",
+			"type": "image",
+			"name": "HitTest_atlas0"
+		},
+		{
+			"url": "assets/UI/Joystick.fui",
+			"type": "bin",
+			"name": "Joystick"
+		},
+		{
+			"url": "assets/UI/Joystick_atlas0.png",
+			"type": "image",
+			"name": "Joystick_atlas0"
+		},
+		{
+			"url": "assets/UI/ListEffect.fui",
+			"type": "bin",
+			"name": "ListEffect"
+		},
+		{
+			"url": "assets/UI/ListEffect_atlas0.png",
+			"type": "image",
+			"name": "ListEffect_atlas0"
+		},
+		{
+			"url": "assets/UI/LoopList.fui",
+			"type": "bin",
+			"name": "LoopList"
+		},
+		{
+			"url": "assets/UI/LoopList_atlas0.png",
+			"type": "image",
+			"name": "LoopList_atlas0"
+		},
+		{
+			"url": "assets/UI/MainMenu.fui",
+			"type": "bin",
+			"name": "MainMenu"
+		},
+		{
+			"url": "assets/UI/MainMenu_atlas0.png",
+			"type": "image",
+			"name": "MainMenu_atlas0"
+		},
+		{
+			"url": "assets/UI/ModalWaiting.fui",
+			"type": "bin",
+			"name": "ModalWaiting"
+		},
+		{
+			"url": "assets/UI/ModalWaiting_atlas0.png",
+			"type": "image",
+			"name": "ModalWaiting_atlas0"
+		},
+		{
+			"url": "assets/UI/PullToRefresh.fui",
+			"type": "bin",
+			"name": "PullToRefresh"
+		},
+		{
+			"url": "assets/UI/PullToRefresh_atlas0.png",
+			"type": "image",
+			"name": "PullToRefresh_atlas0"
+		},
+		{
+			"url": "assets/UI/ScrollPane.fui",
+			"type": "bin",
+			"name": "ScrollPane"
+		},
+		{
+			"url": "assets/UI/ScrollPane_atlas0.png",
+			"type": "image",
+			"name": "ScrollPane_atlas0"
+		},
+		{
+			"url": "assets/UI/Transition.fui",
+			"type": "bin",
+			"name": "Transition"
+		},
+		{
+			"url": "assets/UI/Transition_atlas0.png",
+			"type": "image",
+			"name": "Transition_atlas0"
+		},
+		{
+			"url": "assets/UI/Transition_lvxrs.mp3",
+			"type": "sound",
+			"name": "Transition_lvxrs",
+			"soundType": "effect"
+		},
+		{
+			"url": "assets/UI/TreeView.fui",
+			"type": "bin",
+			"name": "TreeView"
+		},
+		{
+			"url": "assets/UI/TreeView_atlas0.png",
+			"type": "image",
+			"name": "TreeView_atlas0"
+		},
+		{
+			"url": "assets/UI/VirtualList.fui",
+			"type": "bin",
+			"name": "VirtualList"
+		},
+		{
+			"url": "assets/UI/VirtualList_atlas0.png",
+			"type": "image",
+			"name": "VirtualList_atlas0"
+		},
+		{
+			"url": "assets/skin/altas_font.bin",
+			"type": "bin",
+			"name": "altas_font_bin"
+		},
+		{
+			"url": "assets/skin/atlas_ui.bin",
+			"type": "bin",
+			"name": "atlas_ui_bin"
+		},
+		{
+			"url": "assets/skin/atlas_ui_atlas0.png",
+			"type": "image",
+			"name":  "atlas_ui_atlas0"
+		},
+		{
+			"url": "assets/skin/atlas_ui_atlas0_1.png",
+			"type": "image",
+			"name":  "atlas_ui_atlas0_1"
+		},
+		{
+			"url": "assets/skin/atlas_ui_atlas0_2.png",
+			"type": "image",
+			"name":  "atlas_ui_atlas0_2"
+		},
+		{
+			"url": "assets/skin/movie.bin",
+			"type": "bin",
+			"name": "movie_bin"
+		},
+		{
+			"url": "assets/skin/movie_atlas0.png",
+			"type": "image",
+			"name":  "movie_atlas0"
+		},
+		{
+			"url": "assets/skin/preview.bin",
+			"type": "bin",
+			"name": "preview_bin"
+		},
+		{
+			"url": "assets/skin/skin.bin",
+			"type": "bin",
+			"name": "skin_bin"
+		}
+	]
+}

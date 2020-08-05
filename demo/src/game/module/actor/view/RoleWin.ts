@@ -5,7 +5,7 @@ class RoleWin extends BaseView {
 		let list: any[] = [
 			RoleInfoPanel,
 			// RoleTransmigrationPanel,
-			// DressWin,
+			DressWin,
 			// SszbEquipPanel, // SszbWin,
 			// QiMenWin,
 		]

@@ -7,7 +7,7 @@ class RoleInfoPanel extends BaseView {
 	}
 
 	public OnInit() {
-		console.log(this.skin)
+		
 	}
 
 	public OnOpen() {

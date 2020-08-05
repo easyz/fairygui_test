@@ -2,6 +2,7 @@ interface ITabViewData {
 	// className: string
 	cls: any
 	name: string
+	iconName: string
 	notShow: boolean
 	obj?: BaseView
 	args: any

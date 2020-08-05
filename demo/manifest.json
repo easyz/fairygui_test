@@ -16,7 +16,8 @@
 		"bin-debug/base/ViewMgr.js",
 		"bin-debug/core/scene/manager/LayerManager.js",
 		"bin-debug/game/consts/ViewId.js",
-		"bin-debug/demo/JoystickModule.js",
+		"bin-debug/demo/JoystickDemo.js",
+		"bin-debug/base/RoleInfoPanel.js",
 		"bin-debug/base/TabView.js",
 		"bin-debug/Main.js",
 		"bin-debug/base/BitUtil.js",
@@ -28,8 +29,8 @@
 		"bin-debug/demo/EmojiParser.js",
 		"bin-debug/demo/GuideDemo.js",
 		"bin-debug/demo/HitTestDemo.js",
-		"bin-debug/demo/JoystickDemo.js",
 		"bin-debug/Platform.js",
+		"bin-debug/demo/JoystickModule.js",
 		"bin-debug/demo/ListEffectDemo.js",
 		"bin-debug/demo/LoopListDemo.js",
 		"bin-debug/demo/MailItem.js",
@@ -44,7 +45,7 @@
 		"bin-debug/demo/VirtualListDemo.js",
 		"bin-debug/game/base/Util.js",
 		"bin-debug/base/CommonWindowBg.js",
-		"bin-debug/base/RoleInfoPanel.js",
+		"bin-debug/base/DressWin.js",
 		"bin-debug/game/module/actor/view/RoleWin.js",
 		"bin-debug/mainscene/MainBottomPanel.js"
 	]

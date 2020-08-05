@@ -280,7 +280,12 @@ namespace BaseView {
 		}
 
 		private WindowTabBarItem(index: number, obj: fgui.GComponent) {
-			(obj.getChild("icon") as fgui.GLoader).icon = fgui.UIPackage.getItemURL("atlas_ui", "ui_tyzy_yq_zb");// "ui_tyzy_yq_zb"
+			if (!obj["INIT_KEY"]) {
+				obj["INIT_KEY"] = true
+				obj["m_Icon"] = obj.getChild("icon")
+			}
+			let data = this.viewStack.getItemAt(index);
+			(obj["m_Icon"] as fgui.GLoader).icon = fgui.UIPackage.getItemURL("atlas_ui", data.iconName);
 		}
 
 		public OnAdded() {
@@ -290,8 +295,12 @@ namespace BaseView {
 			this.m_Added = true
 
 			this.tabBar.addEventListener(fgui.ItemEvent.CLICK, this._OnTabTap, this);
+
+			// let item = new WindowTabBarItem()
+			// this.tabBar.itemRenderer = item.itemRenderer //this.WindowTabBarItem
+			// this.tabBar.callbackThisObj = item;
 			this.tabBar.itemRenderer = this.WindowTabBarItem
-			this.tabBar.callbackThisObj = this;
+			this.tabBar.callbackThisObj = this
 			this.tabBar.setVirtual();
 			this.tabBar.numItems = this.viewStack.length
 
@@ -300,7 +309,7 @@ namespace BaseView {
 			// this.tabBar.validateNow()
 
 			// this.tabBar.addEventListener(eui.ItemTapEvent.ITEM_TAP, this._OnTabTap, this)
-			this.tabBar.addEventListener(egret.Event.CHANGE, this._OnTabChange, this)
+			this.tabBar.addEventListener(fgui.ItemEvent.CLICK, this._OnTabChange, this)
 		}
 
 		public OnRemoved(): void {
@@ -308,7 +317,7 @@ namespace BaseView {
 				return
 			}
 			this.m_Added = false
-			this.tabBar.removeEventListener(egret.Event.CHANGE, this._OnTabChange, this)
+			this.tabBar.removeEventListener(fgui.ItemEvent.CLICK, this._OnTabChange, this)
 			// this.tabBar.removeEventListener(eui.ItemTapEvent.ITEM_TAP, this._OnTabTap, this)
 			if (this.tabBar != null) {
 				this.TabBarSetData(this.tabBar, null)
@@ -386,6 +395,7 @@ namespace BaseView {
 
 			this.m_OldIndex = index
 			this.viewStack.selectedIndex = index
+			this.tabBar.selectedIndex = index
 			let curView = this.viewStack.getElementAt(this.viewStack.selectedIndex) as BaseView
 			if ((this.m_CurShowView != curView || (clsArr && clsArr.length > 0 && !BaseView.M_VIEWS[clsArr[clsArr.length - 1]]))) {
 
@@ -498,6 +508,7 @@ namespace BaseView {
 
 		private _OnTabChange(): void {
 			if (this.tabBar.selectedIndex != this.m_OldIndex) {
+				this.viewStack.selectedIndex = this.tabBar.selectedIndex
 				this.m_OldIndex = this.tabBar.selectedIndex;
 				this._SetCurShowView(this.viewStack.getElementAt(this.viewStack.selectedIndex) as BaseView)
 				this._UpdateTitle()

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://9liwr56pl3meb" designImageAlpha="0">
+  <displayList>
+    <component id="n12_dbv0" name="viewStack" src="dbv0h" fileName="base/ViewStack.xml" xy="0,0"/>
+    <image id="n3_l3me" name="n3" src="u9gk6x" fileName="tyzy/ui_tyzy_zyqdk1.png" pkg="foy7s7mt" xy="-136,1111"/>
+    <image id="n0_l3me" name="n0" src="u9gk59" fileName="tyzy/ui_tyzy_taitou@312_0_49_0.png" pkg="foy7s7mt" xy="0,0" size="720,57"/>
+    <image id="n1_l3me" name="n1" src="u9gk6h" fileName="tyzy/ui_tyzy_yijikuang3.png" pkg="foy7s7mt" xy="0,63" size="720,804" touchable="false"/>
+    <image id="n2_l3me" name="n2" src="u9gk6g" fileName="tyzy/ui_tyzy_yijikuang.png" pkg="foy7s7mt" xy="0,862" size="720,269" touchable="false"/>
+    <component id="n4_l3me" name="btnReturn" src="l3mef" fileName="base/Btn0Skin.xml" xy="604,1150" size="94,104">
+      <Button icon="ui://foy7s7mtu9gk4b"/>
+    </component>
+    <list id="n5_dbv0" name="tabBar" xy="7,1134" size="592,140" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://ff2brinwdbv0g">
+      <item icon="ui://foy7s7mtu9gk3c"/>
+      <item icon="ui://foy7s7mtu9gk3d"/>
+      <item icon="ui://foy7s7mtu9gk3e"/>
+    </list>
+  </displayList>
+</component>

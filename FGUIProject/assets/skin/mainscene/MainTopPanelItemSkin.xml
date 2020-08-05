@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,44" remark="000&#xA;">
+  <displayList>
+    <image id="n2_u9gk" name="n2" src="u9gk4v" fileName="tyzy/ui_tyzy_hbldk02.png" pkg="foy7s7mt" xy="0,2" size="150,42">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <loader id="n0_u9gk" name="img" xy="3,-3" size="50,50"/>
+    <image id="n1_u9gk" name="n1" src="u9gk4q" fileName="tyzy/ui_tyzy_hb_jh.png" pkg="foy7s7mt" xy="33,21"/>
+    <text id="n3_u9gk" name="numLab" xy="55,5" size="95,32" fontSize="22" color="#dedede" autoSize="none" text="0">
+      <relation target="" sidePair="left-left,right-right"/>
+    </text>
+  </displayList>
+  <customProperty target="img" propertyId="1" label="图标"/>
+  <customProperty target="numLab" propertyId="0" label="数量"/>
+</component>

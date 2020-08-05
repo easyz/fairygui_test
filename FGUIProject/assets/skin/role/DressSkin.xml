@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://9liwr56psmokd" designImageAlpha="100">
+  <displayList>
+    <component id="n0_smok" name="n0" src="dbv0l" fileName="base/Btn1Skin.xml" xy="115,915"/>
+    <component id="n1_smok" name="n1" src="dbv0l" fileName="base/Btn1Skin.xml" xy="423,913"/>
+    <component id="n2_smok" name="n2" src="smoko" fileName="base/ProgressBar1.xml" xy="36,812" size="647,39">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n3_smok" name="n3" src="smokp" fileName="base/Button1.xml" xy="523,858" pivot="0.5,0" anchor="true" size="139,52">
+      <Button title="自动购买"/>
+    </component>
+  </displayList>
+</component>

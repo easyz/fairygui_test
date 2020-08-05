@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="92,93">
+  <displayList>
+    <loader id="n2_dbv0" name="imgBg" xy="0,0" size="92,93" url="ui://foy7s7mtu9gk5d"/>
+    <loader id="n1_dbv0" name="imgIcon" xy="11,11" size="70,69"/>
+  </displayList>
+</component>

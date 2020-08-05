@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://9liwr56pu9gk7" designImageAlpha="1">
+  <displayList>
+    <image id="n9_u9gk" name="n9" src="v0qlk" fileName="zjm/ui_tyzy_zjmtbdi.png" pkg="foy7s7mt" xy="0,1280" pivot="0,1" anchor="true">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <component id="n3_u9gk" name="n3" src="u9gk2" fileName="mainscene/MainBottomBtnSkin.xml" xy="145,1156" group="n8_u9gk">
+      <Button icon="ui://foy7s7mtv0ql1n"/>
+    </component>
+    <component id="n4_u9gk" name="n4" src="u9gk2" fileName="mainscene/MainBottomBtnSkin.xml" xy="232,1156" group="n8_u9gk">
+      <Button icon="ui://foy7s7mtv0ql1m"/>
+    </component>
+    <component id="n5_u9gk" name="n5" src="u9gk2" fileName="mainscene/MainBottomBtnSkin.xml" xy="319,1156" group="n8_u9gk">
+      <Button icon="ui://foy7s7mtv0ql1k"/>
+    </component>
+    <component id="n6_u9gk" name="n6" src="u9gk2" fileName="mainscene/MainBottomBtnSkin.xml" xy="406,1156" group="n8_u9gk">
+      <Button icon="ui://foy7s7mtv0ql1l"/>
+    </component>
+    <component id="n7_u9gk" name="n7" src="u9gk2" fileName="mainscene/MainBottomBtnSkin.xml" xy="493,1156" group="n8_u9gk">
+      <Button icon="ui://foy7s7mtv0ql1j"/>
+    </component>
+    <group id="n8_u9gk" name="n8" xy="145,1156" size="454,108" advanced="true" layout="hz" colGap="-19" excludeInvisibles="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <image id="n10_u9gk" name="n10" src="v0ql1b" fileName="zjm/ui_zjm_heji_dikuang.png" pkg="foy7s7mt" xy="587,1113" group="n12_u9gk"/>
+    <image id="n11_u9gk" name="n11" src="v0ql1c" fileName="zjm/ui_zjm_heji_juewei.png" pkg="foy7s7mt" xy="577,1135" group="n12_u9gk"/>
+    <group id="n12_u9gk" name="n12" xy="577,1113" size="164,161" advanced="true">
+      <relation target="" sidePair="right-right,top-bottom"/>
+    </group>
+    <image id="n13_u9gk" name="n13" src="v0ql2q" fileName="zjm/ui_zjm_xuelan_di.png" pkg="foy7s7mt" xy="0,1052">
+      <relation target="" sidePair="left-left,top-bottom"/>
+    </image>
+  </displayList>
+</component>

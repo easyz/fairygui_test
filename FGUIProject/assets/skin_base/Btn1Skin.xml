@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="190,78" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_r3bz" name="n0" src="u9gk3k" fileName="tyzy/ui_tyzy_button_00.png" pkg="foy7s7mt" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_r3bz" name="title" xy="95,39" pivot="0.5,0.5" anchor="true" size="52,42" touchable="false" fontSize="30" color="#dedede" align="center" vAlign="middle" singleLine="true" text="xxx">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

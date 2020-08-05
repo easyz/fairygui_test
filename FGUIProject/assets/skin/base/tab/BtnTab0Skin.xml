@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="127,126" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_dbv0" name="n0" src="u9gk70" fileName="tyzy/ui_tyzy_zyqxzk.png" pkg="foy7s7mt" xy="0,0" size="127,126">
+      <gearDisplay controller="button" pages="1,2,3"/>
+    </image>
+    <loader id="n2_dbv0" name="icon" xy="63,63" pivot="0.5,0.5" size="0,0" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n1_dbv0" name="n1" src="u9gk4w" fileName="tyzy/ui_tyzy_hd.png" pkg="foy7s7mt" xy="91,5"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,14" pivot="0.5,0.5" anchor="true" extention="ProgressBar">
+  <displayList>
+    <image id="n0_jofl" name="n0" src="jofl3" fileName="zd/ui_hpback@8_0_8_0.png" pkg="foy7s7mt" xy="0,0" size="80,14">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_jofl" name="hpbar" src="jofl4" fileName="zd/ui_hpbar@2_0_2_0.png" pkg="foy7s7mt" xy="7,3" size="66,4">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_jofl" name="mpbar" src="jofl6" fileName="zd/ui_mpbar@2_0_2_0.png" pkg="foy7s7mt" xy="7,7" size="66,4">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <ProgressBar/>
+</component>

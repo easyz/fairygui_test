@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="9liwr56p">
+  <resources>
+    <image id="u9gk0" name="主界面boss刷新提示弹窗效果图.png" path="/主界面/"/>
+    <image id="u9gk1" name="主界面BUFF图标标注图.png" path="/主界面/"/>
+    <image id="u9gk2" name="新-主界面+领字.png" path="/主界面/"/>
+    <image id="u9gk3" name="新-主界面+领字_标注.png" path="/主界面/"/>
+    <image id="u9gk4" name="新主界面.png" path="/主界面/"/>
+    <image id="u9gk5" name="新主界面_获得新技能.png" path="/主界面/"/>
+    <image id="u9gk6" name="新主界面_获得新技能_标注.png" path="/主界面/"/>
+    <image id="u9gk7" name="新主界面标注图.png" path="/主界面/"/>
+    <image id="l3me8" name="属性弹窗.jpg" path="/角色/"/>
+    <image id="l3me9" name="神装套装属性弹窗.png" path="/角色/"/>
+    <image id="l3mea" name="神装套装属性弹窗标注图.png" path="/角色/"/>
+    <image id="l3meb" name="角色.jpg" path="/角色/"/>
+    <image id="l3mec" name="角色标注.jpg" path="/角色/"/>
+    <image id="smokd" name="@@最新足迹光环装扮界面.png" path="/角色/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

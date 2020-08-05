@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,52">
+  <displayList>
+    <component id="n0_u9gk" name="n0" src="u9gkc" fileName="mainscene/MainTopPanelItemSkin.xml" xy="0,0" size="359,44" group="n3_u9gk">
+      <property target="img" propertyId="1" value="ui://foy7s7mtu9gk4o"/>
+    </component>
+    <component id="n1_u9gk" name="n1" src="u9gkc" fileName="mainscene/MainTopPanelItemSkin.xml" xy="361,0" size="359,44" group="n3_u9gk">
+      <property target="img" propertyId="1" value="ui://foy7s7mtu9gk4s"/>
+    </component>
+    <group id="n3_u9gk" name="n3" xy="0,0" size="720,44" advanced="true" layout="hz" colGap="2" excludeInvisibles="true">
+      <relation target="" sidePair="width-width"/>
+    </group>
+  </displayList>
+</component>

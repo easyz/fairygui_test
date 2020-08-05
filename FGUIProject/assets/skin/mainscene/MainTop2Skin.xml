@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" designImage="ui://9liwr56pu9gk4" designImageAlpha="100">
+  <displayList>
+    <image id="n1_u9gk" name="n1" src="v0ql2l" fileName="zjm/ui_zjm_txkxinxidi.png" pkg="foy7s7mt" xy="0,0">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <movieclip id="n0_u9gk" name="n0" src="u9gk0" fileName="MovieClip1.jta" pkg="9l1sgp6h" xy="219,105" pivot="0.5,0.5" anchor="true" size="720,1280"/>
+    <text id="n2_u9gk" name="n2" xy="182,70" size="46,19" font="ui://9mneml4wu9gk0" fontSize="12" text="123456"/>
+    <text id="n3_u9gk" name="n3" xy="118,13" size="124,29" fontSize="20" color="#dedede" text="暴力的小白兔"/>
+    <loader id="n5_u9gk" name="n5" xy="10,11" size="82,82" url="ui://foy7s7mtu9gk3c"/>
+    <image id="n4_u9gk" name="n4" src="v0ql2j" fileName="zjm/ui_zjm_txk1.png" pkg="foy7s7mt" xy="0,0" size="127,124"/>
+    <component id="n6_u9gk" name="n6" src="u9gkd" fileName="mainscene/MainTopGoldSkin.xml" xy="254,4" size="458,52">
+      <relation target="" sidePair="rightext-right,leftext-left"/>
+    </component>
+    <text id="n7_u9gk" name="n7" xy="347,61" size="55,29" fontSize="20" color="#ebd7a1" ubb="true" vars="true" text="第[color=#00dd00]{val=0}[/color]关"/>
+  </displayList>
+</component>

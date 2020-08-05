@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="106,108" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n5_u9gk" name="icon" xy="4,5" pivot="0.5,0.5" size="98,98" url="ui://foy7s7mtv0ql1n" align="center" vAlign="middle" autoSize="true" clearOnPublish="true"/>
+    <image id="n3_u9gk" name="n3" src="u9gk4w" fileName="tyzy/ui_tyzy_hd.png" pkg="foy7s7mt" xy="66,1" visible="false"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

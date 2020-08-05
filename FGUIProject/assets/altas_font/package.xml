@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="9mneml4w">
+  <resources>
+    <image id="u9gk7" name="00_0.png" path="/"/>
+    <font id="u9gk6" name="00.fnt" path="/" texture="u9gk7"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

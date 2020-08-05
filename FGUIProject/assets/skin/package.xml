@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ff2brinw">
+  <resources>
+    <component id="jofl0" name="hpbarSkin.xml" path="/base/bar/" exported="true"/>
+    <component id="u9gk1" name="MainBottomSkin.xml" path="/mainscene/" exported="true"/>
+    <component id="u9gk2" name="MainBottomBtnSkin.xml" path="/mainscene/" exported="true"/>
+    <component id="u9gk3" name="MainTop2Skin.xml" path="/mainscene/" exported="true"/>
+    <component id="u9gkc" name="MainTopPanelItemSkin.xml" path="/mainscene/" exported="true"/>
+    <component id="u9gkd" name="MainTopGoldSkin.xml" path="/mainscene/" exported="true"/>
+    <component id="l3mee" name="PanelSkin.xml" path="/base/" exported="true"/>
+    <component id="l3mef" name="Btn0Skin.xml" path="/base/" exported="true"/>
+    <component id="dbv0g" name="BtnTab0Skin.xml" path="/base/tab/" exported="true"/>
+    <component id="dbv0h" name="ViewStack.xml" path="/base/" exported="true"/>
+    <component id="dbv0i" name="RoleInfoSkin.xml" path="/role/" exported="true"/>
+    <component id="dbv0l" name="Btn1Skin.xml" path="/base/" exported="true"/>
+    <component id="dbv0m" name="ItemIconSkin.xml" path="/" exported="true"/>
+    <component id="smokn" name="DressSkin.xml" path="/role/" exported="true"/>
+    <component id="smoko" name="ProgressBar1.xml" path="/base/" exported="true"/>
+    <component id="smokp" name="Button1.xml" path="/base/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>
